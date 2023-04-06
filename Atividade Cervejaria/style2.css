@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+
+body {
+    background: rgba(0, 0, 0, 0.84);
+    margin: 0px;
+    padding: 0px;
+    color: #FFFFFF;
+    display: grid;
+    font-family: Raleway;
+}
+
+nav {
+    width: 100%;
+    height: 107px;
+    background-color: #CA7900;
+    display: flex;
+    flex-direction: row;
+}
+
+nav a {
+    font-size: 33px;
+    padding: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.links {
+    margin-top: 30px;
+    width: 70%;
+}
+
+#link1 {
+    margin-left: 90px;
+}
+
+#carrinho {
+    margin-top: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   /* width: 1200px;*/
+    height: 257px;
+    margin: 150px 130px 100px 130px;
+
+    background: #CA7900;
+    border-radius: 40px;
+}
+
+main #imagem {
+    width: 164px;
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+}
+
+p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+}
+
+#button{
+   
+    margin: 0 auto;  /* tive que centralizar o elemento pai "div id=button", porque o elemento-filho "botao" não queria centralizar.*/
+}
+
+div #botao {
+    background: #CA8500;
+    border: 6px solid #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    color: #F5F5F5;
+
+
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.links {
+    font-size: 33px;
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;  
+}
+
+
+#carrinho{
+    font-size: 33px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 30%;   
+}
+
+#link1{
+    margin: 30px 30px 30px 90px;
+}
+
+#link2{
+    margin: 30px 
+}
+
+#link3 {
+    margin: 30px;
+}*/
